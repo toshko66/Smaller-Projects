@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Inconsolata:wght@300;400&display=swap');
+.csv-wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    min-height: calc(100vh - 4rem);
+}
+
+
+.csv-wrapper .left p{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 50px;
+    text-align: center;
+
+}
+.csv-wrapper .left p span{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+.csv-wrapper .left{
+    flex: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+.csv-wrapper .right{
+    flex:1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.csv-wrapper .right p{
+    font-family: 'Chivo Mono', monospace;
+    text-align: center;
+}
+
+input[type=file] {
+    width: 350px;
+    max-width: 100%;
+    color: #000000;
+    padding: 10px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    border: 1px solid #0b0502;
+    scale: 1.1;
+    font-size: 15px;
+    margin: 200px 150px 150px 150px;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Inconsolata', monospace;
+    transition: background .2s ease-in-out;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+    border-radius: 25px;
+    background: linear-gradient(40deg, #3c89ef, #605cc8);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+}
+
+input[type=file]::-webkit-file-upload-button:hover {
+    background: linear-gradient(40deg, #605cc8, #3c89ef);
+    animation: flow 2s linear infinite;
+    transform: scale(1.1);
+}
