@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Inconsolata&display=swap');
+
+
+.output-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.output-wrapper h2{
+    text-align: center;
+    font-family:'Chivo Mono', monospace; ;
+}
+
+.output-wrapper p{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 20px;
+}
+
+.output-wrapper p span{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 25px;
+}
+
+.output-wrapper h3{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 20px;
+}

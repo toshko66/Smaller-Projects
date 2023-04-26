@@ -1,0 +1,28 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+
+  th,
+  td {
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 18px;
+  }
+  
+  th {
+    background: linear-gradient(40deg, #3c89ef, #605cc8);
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 18px;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #EDEDED;
+}
