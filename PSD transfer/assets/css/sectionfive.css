@@ -1,0 +1,99 @@
+
+#five .container{
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#five .container .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#five .container .content div > h2{
+    font-size: 33px;
+    line-height: 33px;
+    color: #deb37e;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+#five .container .content div > p{
+    font-size: 19px;
+    line-height: 25px;
+    color: #333d42;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+#five .container .content div{
+    text-align: left;
+    margin-bottom: 250px;
+}
+
+#five .container .quote h2{
+    font-size: 100px;
+    color: #3f3f3f;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+#five .container .quote span{
+    width: 817px;
+    height: 161px;
+    font-size: 25px;
+    color: #3f3f3f;
+    font-weight: 500;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+#five .container .quote span em{
+    font-weight: 600;
+}
+
+#five::after{ 
+    content: url("C:/Users/GamerPC/Desktop/PSD PROJECT/assets/images/Shadow3.svg");
+    z-index: 99999;
+    position: relative;
+    display: inline-block;
+    transform: rotate(175deg);
+    left: 59em;
+    bottom: 23em;
+}
+
+
+
+/*XXl*/
+@media screen and (max-width:1400px){
+
+}
+
+/*Xl*/
+@media screen and (max-width:1245px){
+    
+}
+
+/*l*/
+@media screen and (max-width:992px){
+    
+}
+
+/*M*/
+@media(max-width:768px){
+
+}
+
+/*S*/
+@media(max-width:576px){
+    #five .container .quote span{
+       font-size: 20px;
+    }
+}
+
+/*XS*/
+@media screen and(max-width:300px){
+}

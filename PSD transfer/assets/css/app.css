@@ -1,0 +1,23 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(fonts.css);
+@import url(fontawesome.css);
+@import url(fontawesome.min.css);
+@import url(v4-font-face.css);
+@import url(v4-font-face.min.css);
+@import url(sectionone.css);
+@import url(sectiontwo.css);
+@import url(sectionthree.css);
+@import url(sectionfour.css);
+@import url(sectionfive.css);
+@import url(sectionsix.css);
+@import url(footer.css);
+
+body{
+    overflow-x: hidden;
+}
+
+/*tva namerih kato variant da si skriq skirq horizontal scroll bara
+PROBLEMS:
+1.sectiontwo ne moga da izmislq kak da ne krie snimkite
+2

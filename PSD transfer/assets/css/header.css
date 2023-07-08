@@ -1,0 +1,222 @@
+header{
+    background-image: url(../images/person-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    min-height: 1200px;
+    background-position-y: 10px;
+}
+
+#nav{ 
+    z-index: 99999999;
+    margin-left: auto;
+}
+
+header .container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header .container .header-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+header .container .header-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#logo{
+    max-width: 92px;
+    max-height: 103px;
+    z-index: 99999999;
+}
+
+header .container .header-bar  .search-wrapper{
+    position: relative;
+    margin-left: auto;
+    margin: 0;
+}
+
+header .container .header-bar .search-wrapper::before {
+    content: "\f002";
+    font-family: 'FontAwesome';
+    display: block;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: none;
+    z-index: 999999;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px 20px;
+    color: #54524f;
+}
+
+header .header-bar .container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right:55px;
+}
+
+header ul li a{
+    font-size: 17px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #54524f;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration:none;
+    justify-content:flex-end;
+}
+
+header .header-banner{
+    padding: 200px 0;
+}
+
+header  .container .header-banner .content{
+    padding-top: 150px;
+}
+
+
+header  .container .header-banner .content h1{
+    font-size: 92px;
+    text-transform: uppercase;
+    color: #deb37e;
+    font-weight: 800;
+    font-family: "Open Sans";
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.22));
+}
+
+header  .container .header-banner .content h2{
+    width: 469px;
+    height: 65px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #54524f;
+    font-weight: 700;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    position: relative;
+    right: 75px;
+    top: 20px;
+    text-transform: capitalize;
+}
+
+header  .container .header-banner .content  button{
+    font-size: 25px;
+    color: #776c64;
+    font-weight: 800;
+    font-family: "Open Sans";
+    text-align: center;
+    opacity: 0.902;
+    width: 220px;
+    height: 50px;
+    border-radius: 21px;
+    background-color: #ffffff;
+    text-transform: capitalize;
+    top: 40px;
+    position: relative;
+    border: none;
+}
+
+header  .container .header-banner .content p{
+    width: 452px;
+    height: 130px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #54524f;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Open Sans";
+    position: relative;
+    top: 60px;
+}
+
+header .container .header-bar input[type="search"] {
+    font-size: 20px;
+    padding: 10px 20px;
+    position: relative;
+    opacity: 0.471;
+    width: 183px;
+    height: 51px;
+    border-radius: 25px;
+    background-color: #7f7770;
+    border: none;
+}
+
+/*XXl*/
+@media screen and (max-width:1400px){
+
+}
+
+/*Xl*/
+@media screen and (max-width:1200px){
+    
+}
+
+/*l*/
+@media screen and (max-width:992px){
+    header  .container .header-banner .content h1{
+        font-size: 82px;
+    }
+    header  .container .header-banner .content h2{
+        font-size: 20px;
+        width: 420px;
+    }
+    header  .container .header-banner .content p{
+        font-size: 18px;
+    }
+    header  .container .header-banner .content  button{
+        width: 205px;
+        height: 35px;
+    }
+}
+
+/*M*/
+@media screen and(max-width:768px){
+    
+}
+
+/*S*/
+@media screen and(max-width:576px){
+    header  .container .header-banner .content h1{
+        font-size:60px;
+    }
+    header  .container .header-banner .content h2{
+        font-size: 17px;
+        width: 400px;
+    }
+    header  .container .header-banner .content p{
+        font-size: 14px;
+    }
+    header  .container .header-banner .content  button{
+        width: 180px;
+        height: 35px;
+    }
+}
+
+/*XS*/
+@media screen and(max-width:300px){
+    
+}
+

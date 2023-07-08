@@ -1,0 +1,119 @@
+
+#six{
+    background-image: url(../images/sectionsix-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px ;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#six .container{
+    max-width: 1440px;
+    max-height: 756px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#six .container h2{
+    text-align: center;
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#six .container p{
+    text-align: center;
+    width: 100%;
+    height: 210px;
+    font-size: 30px;
+    color: #54524f;
+    font-weight: 350;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+#six .container .email-wrapper input{
+    width: 655px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: none;
+}
+
+#six .container .email-wrapper input::placeholder{
+    opacity: 0.678;
+font-size: 25px;
+color: #54524f;
+font-weight: 400;
+font-family: "Open Sans";
+padding-left: 20px;
+}
+
+#six .container .email-wrapper{
+    position: relative;
+}
+
+#six .container .email-wrapper::before{
+    content: "subscribe";
+    right: 1px;
+    font-size: 25px;
+    height: 60px;
+    width: 200px;
+    background-color: #54524f;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: block;
+    position: absolute;
+    border-radius: 50px;
+    z-index: 9999;
+    padding: 1px;
+    line-height: 2.5;
+}
+
+
+/*XXl*/
+@media screen and (max-width:1400px){
+
+}
+
+/*Xl*/
+@media screen and (max-width:1245px){
+    
+}
+
+/*l*/
+@media screen and (max-width:992px){
+    
+}
+
+/*M*/
+@media(max-width:768px){
+    #six .container{
+        scale: 0.8;
+    }
+}
+
+/*S*/
+@media(max-width:576px){
+    #six .container{
+        scale: 0.6;
+    }
+}
+
+/*XS*/
+@media screen and(max-width:300px){
+}

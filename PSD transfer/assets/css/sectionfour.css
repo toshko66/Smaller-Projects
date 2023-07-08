@@ -1,0 +1,64 @@
+#four{ 
+    display: flex;
+    padding: 150px 0;
+    background-image: url(../images/sectionfour-bggg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+    background-position: center;
+}
+
+#four .container{
+    max-width: 1440px;
+    padding-top: 300px;
+    margin-right: 90px;
+}
+
+#four  h2{
+    font-size: 76px;
+    color: #54524f;
+    font-weight: 800;
+    font-style: italic;
+    font-family: "Open Sans";
+    text-align: right;
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.36));
+    text-transform: uppercase;
+}
+
+#four  h2 em{
+    color:#deb37e;
+}
+
+
+/*XXl*/
+@media screen and (max-width:1400px){
+
+}
+
+/*Xl*/
+@media screen and (max-width:1245px){
+    
+}
+
+/*l*/
+@media screen and (max-width:992px){
+    
+}
+
+/*M*/
+@media(max-width:768px){
+
+}
+
+/*S*/
+@media screen and(max-width:576px){
+
+}
+
+/*XS*/
+@media screen and(max-width:300px){
+    
+}
