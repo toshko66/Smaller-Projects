@@ -1,0 +1,122 @@
+#our-team {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#our-team h2 {
+    margin: 0 auto 25px;
+    color: #313243;
+    text-align: center;
+}
+
+#our-team > p {
+    font-size: 33px;
+    color: #313243;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+#our-team .container {
+    justify-content: space-between;
+}
+
+#our-team .container div {
+    max-width: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+#our-team .container div img {
+    margin-bottom: 20px;
+}
+
+#our-team .container div h4 {
+    font-size: 29px;
+    color: #313243;
+    text-align: center;
+}
+
+#our-team .container div p {
+    font-size: 25px;
+    color: #313243;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#our-team .container div span a {
+    font-size: 25px;
+    color: #fff;
+    background-color: #daac00;
+    border-radius: 50%;
+    margin: 0 10px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+
+#our-team .container div span a i {
+    font-size: 25px;
+}
+
+/* Large Screen L */
+@media only screen and (max-width: 992px) {
+
+    #our-team h2 {
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    #our-team > p {
+        padding: 10px;
+    }
+
+    #our-team .container div h4 {
+        font-size: 25px;
+    }
+
+    #our-team > p,
+    #our-team .container div p {
+        font-size: 20px;
+    }
+
+    #our-team > p {
+        margin-bottom: 15px;
+    }
+
+    #our-team .container div p {
+        margin-bottom: 10px;
+    }
+
+    #our-team .container div span a {
+        width: 23px;
+        height: 23px;
+        margin: 0 5px 0 0;
+    }
+
+    #our-team .container div span a,
+    #our-team .container div span a i {
+        font-size: 16px;
+    }
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 768px) {
+    #our-team {
+        padding: 40px 0;
+    }
+}
+
+/* Small Screen */
+@media only screen and (max-width: 576px) {
+    #our-team .container {
+        flex-wrap: wrap;
+    }
+
+    #our-team .container div {
+        max-width: 80%;
+        margin: 0 auto 30px;
+    }
+}

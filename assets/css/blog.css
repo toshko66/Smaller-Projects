@@ -1,0 +1,127 @@
+#blog {
+    padding: 130px 10px;
+}
+
+#blog h2 {
+    margin: 0 auto;
+    color: #313243;
+    text-align: center;
+}
+
+#blog > p {
+    font-size: 33px;
+    color: #313243;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#blog .container {
+    margin: 20px auto;
+    justify-content: space-evenly;
+}
+
+#blog .container div.post-wrapper {
+    max-width: 30%;
+}
+
+#blog .container div.post-wrapper div.text-wrapper {
+    border: 2px solid #e2e2e2;
+    border-top: none;
+    padding: 20px;
+}
+
+#blog .container div.post-wrapper:hover {
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.1),-1px -1px 10px 1px rgba(0, 0, 0, 0.1), 
+    -1px 1px 10px 1px rgba(0, 0, 0, 0.1), 1px -1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+#blog .container div.post-wrapper:hover div.text-wrapper {
+    border-color: transparent;
+}
+
+#blog .container div.post-wrapper div.text-wrapper h4 {
+    font-size: 25px;
+    color: #313243;
+    font-weight: 600;
+}
+
+
+#blog .container div.post-wrapper div.text-wrapper span {
+    font-size: 17px;
+    color: #00bec9;
+    font-weight: 400;
+    font-family: "poppinsregular", sans-serif;
+}
+
+#blog .container div.post-wrapper div.text-wrapper p {
+    font-size: 17px;
+    color: #313243;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+#blog .container div.post-wrapper div.text-wrapper a {
+    font-size: 21px;
+    color: #00bec9;
+    font-weight: 500;
+    font-family: "poppinsbold", sans-serif;
+}
+
+/* Large Screen L */
+@media only screen and (max-width: 992px) {
+    #blog h2 {
+        padding: 10px;
+    }
+
+    #blog > p {
+        font-size: 20px;
+        margin: 15px 0;
+        padding: 10px;
+    }
+
+    #blog .container div.post-wrapper div.text-wrapper h4 {
+        font-size: 20px;
+    }
+
+    #blog .container div.post-wrapper div.text-wrapper p,
+    #blog .container div.post-wrapper div.text-wrapper span {
+        font-size: 15px;
+    }
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 768px) {
+    #blog {
+        padding: 40px 0;
+    }
+
+    #blog .container {
+        flex-wrap: wrap;
+    }
+
+    #blog .container div.post-wrapper {
+        max-width: 45%;
+        margin: 0 auto 45px;
+    }
+
+    #blog .container div.post-wrapper div.text-wrapper p {
+        margin: 15px auto;
+    }
+
+    #blog .container div.post-wrapper:hover {
+        box-shadow: none;
+    }
+
+    #blog .container div.post-wrapper:hover div.text-wrapper {
+        border-color: #e2e2e2;
+    }
+}
+
+/* Small Screen */
+@media only screen and (max-width: 576px) {
+    #blog .container div.post-wrapper {
+        max-width: 80%;
+        margin: 0 auto 45px;
+    }
+}

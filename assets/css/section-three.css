@@ -1,0 +1,121 @@
+#three {
+    padding: 140px 0;
+}
+
+#three .container {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#three .container .content {
+    max-width: 50%;
+    order: 2;
+    text-align: right;
+}
+
+#three .container .content h4 {
+    text-align: right;
+}
+
+#three .container .content p {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #313243;
+    font-weight: 400;
+    margin: 50px 0;
+    text-align: right;
+}
+
+#three .container .content button {
+    background-color: #fcc302;
+    border-radius: 7px;
+    text-transform: capitalize;
+    padding: 15px 25px;
+}
+
+#three .container div.image-wrapper {
+    position: relative;
+    order: 1;
+}
+
+#three .container div.image-wrapper img {
+    position: relative;
+}
+
+#three .container div.image-wrapper::before {
+    content: '';
+    display: block;
+    width: 40%;
+    height: 40%;
+    background-color: #fcc302;
+    position: absolute;
+    top: 65%;
+    left: 65%;
+}
+
+#three .container div.image-wrapper::after {
+    content: '\f144';
+    text-align: center;
+    padding: 35%;
+    color: #ffffff;
+    font-family: 'FontAwesome';
+    font-size: 70px;
+    display: block;
+    position: absolute;
+    background-color: rgba(252, 195, 2, 0.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: scaleX(-1);
+}
+
+/* Large Screen L */
+@media only screen and (max-width: 992px) {
+    #three .container {
+        flex-wrap: wrap;
+    }
+
+    #three .container .content {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+        order: 0;
+    }
+
+    #three .container .content h3,
+    #three .container .content p {
+        text-align: center;
+    }
+
+    #three .container .content p {
+        font-size: 20px;
+        margin: 15px auto;
+    }
+
+    #three .container div.image-wrapper {
+        margin: 0 auto;
+        order: 0;
+    }
+
+    #three .container .content button {
+        padding: 10px 20px;
+        border: 3px solid #fcc302;
+    }
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 768px) {
+    #three {
+        padding: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #three .container div.image-wrapper::before {
+        display: none;
+    }
+}

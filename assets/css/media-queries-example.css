@@ -1,0 +1,17 @@
+/* Extra Extra Large screen XXL */
+@media only screen and (max-width: 1400px) {}
+
+/* Extra Large Screen XL */
+@media only screen and (max-width: 1200px) {}
+
+/* Large Screen L */
+@media only screen and (max-width: 992px) {}
+
+/* Medium Screen M */
+@media only screen and (max-width: 768px) {}
+
+/* Small Screen S */
+@media only screen and (max-width: 576px) {}
+
+/* Extra small screen XS */
+@media only screen and (max-width: 576px) {}

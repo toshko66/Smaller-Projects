@@ -1,0 +1,123 @@
+#products {
+    background-color: #fcc302;
+    padding: 95px 0;
+    text-align: center;
+}
+
+#products h2,
+#products > p {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#products > p {
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 25px auto;
+}
+
+#products .container {
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+#products .container div {
+    text-align: center;
+    max-width: 30%;
+}
+
+#products .container div img {
+    margin: 50px auto 35px;
+    transition: 0.4s ;
+}
+
+#products .container div img:hover {
+    transform: scale(1.1,1.1);
+}
+
+#products .container div h4 {
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#products .container div h4 span {
+    padding: 0px 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+#products .container div h4 span::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #fff;
+}
+
+#products .container div button {
+    font-size: 25px;
+    border-radius: 30px;
+    background-color: #00bec9;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    font-family: "poppinsbold", sans-serif;
+    cursor: pointer;
+}
+
+/* Large Screen L */
+@media only screen and (max-width: 992px) {
+    #products > p {
+        font-size: 20px;
+        margin: 15px auto;
+        padding: 10px;
+    }
+
+    #products .container div h4,
+    #products .container div h4 span {
+        font-size: 25px;
+    }
+
+    #products .container div button {
+        font-size: 21px;
+    }
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 768px) {
+    #products {
+        padding: 40px 0;
+    }
+
+    #products .container div img {
+        margin: 20px auto 10px;
+    }
+
+    #products .container div h4 {
+        margin-bottom: 10px;
+    }
+
+    #products .container div img:hover {
+        transform: none;
+    }
+}
+
+/* Small Screen */
+@media only screen and (max-width: 576px) {
+    #products .container div {
+        max-width: 80%;
+        margin: 0 auto 15px;
+    }
+}
