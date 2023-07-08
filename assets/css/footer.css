@@ -1,0 +1,137 @@
+footer {
+    padding: 150px 10px;
+    background-color: #343434;
+    color: #fff
+}
+
+footer .container {
+    gap: 20px;
+}
+
+footer .container div {
+    flex-grow: 1;
+}
+
+footer .container div:last-child h4 {
+    text-align: right;
+}
+
+footer .container ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer .container li {
+    font-size: 25px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "poppinsregular", sans-serif;
+    cursor: pointer;
+}
+
+footer .container p {
+    font-size: 25px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+footer .container div span {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
+
+footer .container div span a {
+    font-size: 25px;
+    color: #343434;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+
+footer .container div span a i {
+    font-size: 25px;
+}
+
+footer .container div div {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+footer .container div input {
+    height: 90px;
+    padding: 1em;
+    width: 100%;
+}
+
+footer .container div button {
+    background-color: #00bec9;
+    height: 90px;
+    padding: 0 1.5em;
+    font-size: 30px;
+}
+
+/* Large Screen L */
+@media only screen and (max-width: 992px) {
+
+    footer .container p {
+        font-size: 20px;
+    }
+
+    footer .container li {
+        font-size: 17px;
+    }
+
+    footer .container div div {
+        font-size: 17px;
+    }
+
+    footer .container div button,
+    footer .container div input {
+        height: 45px;
+    }
+
+    footer .container div button {
+        padding: 0 1.5em;
+        font-size: 17px;
+    }
+
+    footer .container div span a {
+        width: 23px;
+        height: 23px;
+        margin: 0 5px 0 0;
+        font-size: 16px;
+    }
+
+    footer .container div span a i {
+        font-size: 16px;
+    }
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 768px) {
+    footer {
+        padding: 40px 0;
+    }
+
+    footer .container {
+        flex-wrap: wrap;
+    }
+
+    footer .container div:last-child h4,
+    footer .container p,
+    footer .container div span,
+    footer .container div  {
+        text-align: center;
+    }
+}

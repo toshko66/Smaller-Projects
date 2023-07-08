@@ -1,0 +1,195 @@
+header {
+    background-color: #fcc302;
+}
+
+header .header-bar {
+    background-color: rgba(0,0,0,0.1);
+}
+
+header .header-bar .container,
+header .header-banner .container {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo {
+    max-width: 250px;
+}
+
+header .header-bar .container ul {
+    margin: 30px 0;
+    display: flex;
+    padding: 0;
+    gap: 10px;
+}
+
+header .header-bar .container ul li {
+    display: inline-block;
+}
+
+header .header-bar .container ul li a {
+    font-size: 27px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "poppinsregular", sans-serif;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header .header-bar .container ul li a:hover {
+    color: #fcc302;
+}
+
+header .header-bar .container .search-wrapper {
+    position: relative;
+}
+
+header .header-bar .container .search-wrapper::after {
+    content: '\f002';
+    font-family: "FontAwesome";
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #00bec9;
+    font-size: 22px;
+    text-align: center;
+    color: #ffffff;
+    padding: 9px 25px 8px;
+}
+
+header .header-bar .container input[type="search"] {
+    font-size: 20px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+header .header-bar .container input[type="search"]::placeholder {
+    color: #ffffff;
+}
+
+
+header .header-banner {
+    padding: 90px 0;
+}
+
+header .header-banner .container .content h1 {
+    font-size: 67px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "poppinsregular", sans-serif;
+}
+
+header .header-banner .container .content p {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 45px 0;
+}
+
+header .header-banner .container .content button.btn-blue,
+header .header-banner .container .content button.btn {
+    border-radius: 7px;
+    padding: 15px 25px;
+    text-transform: capitalize;
+    margin-right: 35px;
+}
+
+header .header-banner .container .content button.btn-blue {
+    background-color: #00bec9;
+    border: 3px solid #00bec9;
+}
+
+header .header-banner .container .content button.btn {
+    background-color: transparent;
+    border: 3px solid #ffffff;
+}
+
+header .header-banner .container .image-wrapper img {
+    transform: scaleX(-1);
+}
+
+/* Large Screen L */
+@media only screen and (max-width: 992px) {
+    header .header-banner .container .content h1 {
+        font-size: 48px;
+        padding: 10px;
+    }
+
+    header .header-banner .container .content p {
+        font-size: 20px;
+        padding: 10px;
+        margin: 15px auto;
+    }
+
+    header .header-banner .container .content button.btn-blue,
+    header .header-banner .container .content button.btn {
+        padding: 10px 20px;
+        margin-right: 20px;
+    }
+
+    header .header-bar .container .search-wrapper,
+    header .header-bar .container nav {
+        display: none;
+    }
+
+    header .header-bar .container .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        align-self: end;
+    }
+
+    header .header-bar .container .mobile-menu span {
+        display: block;
+        width: 50px;
+        margin-bottom: 10px;
+        height: 5px;
+        background-color: #fff;
+    }
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 768px) {
+    header .header-banner .container .content {
+        text-align: center;
+    }
+
+    header .header-banner .container {
+        flex-wrap: wrap;
+    }
+
+    header .header-banner {
+        padding: 40px 0;
+    }
+
+    header .header-banner .container .image-wrapper img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* Small Screen */
+@media only screen and (max-width: 576px) {
+    header .header-bar .container {
+        flex-wrap: wrap;
+    }
+
+    header .header-banner .container .content button.btn-blue,
+    header .header-banner .container .content button.btn {
+        margin-bottom: 10px;
+    }
+    #logo {
+        max-width: 150px;
+    }
+}
+
+/* Extra small screen */
+@media only screen and (max-width: 576px) {
+
+}

@@ -1,0 +1,94 @@
+@import url(reset.css);
+@import url(font-awesome.css);
+@import url(fonts.css);
+@import url(header.css);
+@import url(section-one.css);
+@import url(services.css);
+@import url(section-three.css);
+@import url(products.css);
+@import url(our-team.css);
+@import url(metrics.css);
+@import url(blog.css);
+@import url(footer.css);
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 75px;
+    max-width: 1200px;
+    font-weight: 700;
+    font-family: "poppinsbold", sans-serif;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 50px;
+    color: #313243;
+    font-weight: 600;
+    font-family: 'poppinsregular', sans-serif;
+}
+
+h4 {
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "poppinsbold", sans-serif;
+}
+
+p {
+    font-family: "poppinsregular", sans-serif;
+}
+
+button {
+    border: none;
+    color: #ffffff;
+    font-family: "poppinsregular", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+input {
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "poppinsregular", sans-serif;
+    background-color: #fcc302;
+    border: none;   
+    outline: none;
+}
+
+input:focus-visible,
+input:focus {
+    outline: none;
+}
+
+/* Large Screen L */
+@media only screen and (max-width: 992px) {
+    h2 {
+        font-size: 52px;
+    }
+
+    h3 {
+        font-size: 38px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+}
